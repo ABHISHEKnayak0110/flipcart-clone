@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Slab:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #2874f0;
+    color: black;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+.logo img{
+     width: 88px;
+     padding: 0 25px;
+}
+nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+      padding: 0px  23px;
+  
+}
+nav ul li a{
+    color: white ;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li a:hover{
+    
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 493px;
+    height: 23px ;
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 0px 12px;
+}
+.slider{
+    margin: 12px auto;
+    
+    width: 47vw;
+
+   
+}
+.container{
+    min-height:calc(100vh - 60px - 12vh);
+
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+ 
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 18px;
+}
+.card h2{
+    font-family:'Lato', sans-serif; 
+}
+footer{
+    height: 12vh;
+    background-color: black;
+    color: red;
+    font-family: 'Lato', sans-serif;
+}
